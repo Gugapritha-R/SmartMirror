@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+kaggle.json
+models/acne_detection
+.ipynb_checkpoints/
+.env

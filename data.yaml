@@ -1,0 +1,9 @@
+path: .  # current directory
+train: train
+val: valid
+test: test
+
+names:
+  0: acne
+  1: pimple
+  2: spot
