@@ -8,8 +8,8 @@ class SkinTypeClassifier:
         self.labels = ['Dry', 'Normal', 'Oily']  # Update if you have more classes
 
     def predict(self, face_img):
-        # Resize face to match input shape
-        input_img = cv2.resize(face_img, (224, 224))  # change if your model expects a different size
+        
+        input_img = cv2.resize(face_img, (224, 224))  
         input_img = input_img / 255.0
         input_img = np.expand_dims(input_img, axis=0)
 
