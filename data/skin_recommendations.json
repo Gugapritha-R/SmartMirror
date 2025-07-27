@@ -1,0 +1,255 @@
+[
+  {
+    "skin_type": "Oily",
+    "skin_issues": ["Acne", "Blackheads", "Whiteheads", "Enlarged-Pores"],
+    "recommendations": {
+      "routine": {
+        "morning": [
+          "Cleanse with salicylic acid-based face wash",
+          "Apply an alcohol-free toner",
+          "Use a lightweight, non-comedogenic moisturizer",
+          "Apply oil-free sunscreen SPF 50"
+        ],
+        "night": [
+          "Double cleanse if makeup or sunscreen used",
+          "Apply niacinamide serum for oil control",
+          "Use a clay mask twice a week",
+          "Moisturize with gel-based night cream"
+        ]
+      },
+      "products": [
+        {
+          "name": "Minimalist Salicylic Acid 2% Face Wash",
+          "purpose": "Reduce acne, unclog pores",
+          "type": "Cleanser"
+        },
+        {
+          "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+          "purpose": "Sebum control, acne healing",
+          "type": "Serum"
+        },
+        {
+          "name": "Pilgrim Oil-Free Gel Moisturizer",
+          "purpose": "Hydrate without clogging pores",
+          "type": "Moisturizer"
+        },
+        {
+          "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 50+",
+          "purpose": "Sun protection without greasiness",
+          "type": "Sunscreen"
+        }
+      ],
+      "home_remedies": [
+        "Use diluted tea tree oil as spot treatment",
+        "Apply a clay + rose water mask twice a week"
+      ],
+      "tips": [
+        "Avoid heavy creams",
+        "Do not overwash",
+        "Change pillowcases regularly"
+      ]
+    }
+  },
+  {
+    "skin_type": "Dry",
+    "skin_issues": ["Dry-Skin", "Wrinkles", "Dark-Spots"],
+    "recommendations": {
+      "routine": {
+        "morning": [
+          "Cleanse with hydrating cream cleanser",
+          "Apply hyaluronic acid-based toner",
+          "Moisturize with ceramide-rich cream",
+          "Apply SPF 30+ sunscreen"
+        ],
+        "night": [
+          "Use micellar water to cleanse",
+          "Apply retinol or vitamin C serum (alternate nights)",
+          "Use thick nourishing cream",
+          "Apply under-eye cream"
+        ]
+      },
+      "products": [
+        {
+          "name": "Cetaphil Gentle Skin Cleanser",
+          "purpose": "Gentle hydration",
+          "type": "Cleanser"
+        },
+        {
+          "name": "La Roche-Posay Retinol B3 Serum",
+          "purpose": "Anti-aging, spot fading",
+          "type": "Serum"
+        },
+        {
+          "name": "Foxtale Ceramide Supercream Moisturizer",
+          "purpose": "Lock in moisture and repair barrier",
+          "type": "Moisturizer"
+        },
+        {
+          "name": "Pilgrim White Lotus Natural Sunscreen SPF 50",
+          "purpose": "Protect and nourish dry skin",
+          "type": "Sunscreen"
+        }
+      ],
+      "home_remedies": [
+        "Massage with coconut oil before sleep",
+        "Apply honey + curd mask for 10 minutes"
+      ],
+      "tips": [
+        "Avoid hot showers",
+        "Use humidifier indoors",
+        "Stay hydrated"
+      ]
+    }
+  },
+  {
+    "skin_type": "Normal",
+    "skin_issues": ["Eyebags", "Dark-Spots", "Skin-Redness"],
+    "recommendations": {
+      "routine": {
+        "morning": [
+          "Cleanse with gentle foaming face wash",
+          "Apply vitamin C serum",
+          "Use light moisturizer",
+          "Apply broad-spectrum sunscreen"
+        ],
+        "night": [
+          "Double cleanse on makeup days",
+          "Apply caffeine eye cream for puffiness",
+          "Use soothing moisturizer with aloe/chamomile"
+        ]
+      },
+      "products": [
+        {
+          "name": "Foxtale Daily Duet Cleanser",
+          "purpose": "Gentle daily cleansing",
+          "type": "Cleanser"
+        },
+        {
+          "name": "The Inkey List Caffeine Eye Cream",
+          "purpose": "Reduce eyebags and puffiness",
+          "type": "Eye Cream"
+        },
+        {
+          "name": "Minimalist Vitamin C Serum 10%",
+          "purpose": "Brighten skin and fade spots",
+          "type": "Serum"
+        },
+        {
+          "name": "Neutrogena Hydro Boost Water Gel",
+          "purpose": "Hydration and balance",
+          "type": "Moisturizer"
+        }
+      ],
+      "home_remedies": [
+        "Use cold tea bags over eyes",
+        "Apply turmeric + honey paste to dark areas"
+      ],
+      "tips": [
+        "Stick to a consistent routine",
+        "Always remove makeup before sleep",
+        "Use sunscreen even on cloudy days"
+      ]
+    }
+  },
+  {
+    "skin_type": "Oily",
+    "skin_issues": ["Skin-Redness", "Acne", "Enlarged-Pores"],
+    "recommendations": {
+      "routine": {
+        "morning": [
+          "Cleanse with calming gel face wash",
+          "Apply niacinamide or green tea toner",
+          "Moisturize with calming moisturizer",
+          "Use mineral sunscreen SPF 50"
+        ],
+        "night": [
+          "Double cleanse with micellar water and gel cleanser",
+          "Apply azelaic acid or niacinamide serum",
+          "Use soothing night moisturizer"
+        ]
+      },
+      "products": [
+        {
+          "name": "Minimalist Azelaic Acid 10%",
+          "purpose": "Calm redness and acne",
+          "type": "Serum"
+        },
+        {
+          "name": "The Ordinary Squalane Cleanser",
+          "purpose": "Gentle cleansing without stripping",
+          "type": "Cleanser"
+        },
+        {
+          "name": "Foxtale Acne Control Moisturizer",
+          "purpose": "Control oil and soothe skin",
+          "type": "Moisturizer"
+        },
+        {
+          "name": "Re’equil Oxybenzone-Free Sunscreen SPF 50",
+          "purpose": "Calm redness and protect skin",
+          "type": "Sunscreen"
+        }
+      ],
+      "home_remedies": [
+        "Apply cucumber juice to reduce redness",
+        "Use green tea toner (DIY)"
+      ],
+      "tips": [
+        "Avoid alcohol-based products",
+        "Don’t exfoliate aggressively",
+        "Patch test new products"
+      ]
+    }
+  },
+  {
+    "skin_type": "Dry",
+    "skin_issues": ["Wrinkles", "Dark-Spots", "Skin-Redness"],
+    "recommendations": {
+      "routine": {
+        "morning": [
+          "Hydrating creamy cleanser",
+          "Apply antioxidant serum (vitamin C)",
+          "Moisturize with peptide cream",
+          "Use SPF 50 sunscreen"
+        ],
+        "night": [
+          "Cleanse gently",
+          "Apply retinol on alternate nights",
+          "Use nourishing barrier repair cream",
+          "Apply anti-aging eye cream"
+        ]
+      },
+      "products": [
+        {
+          "name": "Foxtale Comfort Zone Rich Moisturizer",
+          "purpose": "Deep nourishment and repair",
+          "type": "Moisturizer"
+        },
+        {
+          "name": "Minimalist 0.3% Retinol + Q10 Serum",
+          "purpose": "Reduce wrinkles and fine lines",
+          "type": "Serum"
+        },
+        {
+          "name": "Neutrogena Rapid Tone Repair Serum",
+          "purpose": "Fade dark spots",
+          "type": "Serum"
+        },
+        {
+          "name": "Pilgrim Red Vine Night Cream",
+          "purpose": "Boost collagen, hydrate overnight",
+          "type": "Night Cream"
+        }
+      ],
+      "home_remedies": [
+        "Use almond oil under eyes",
+        "Mash papaya + honey as anti-aging face pack"
+      ],
+      "tips": [
+        "Start with low-strength retinol",
+        "Always follow with moisturizer",
+        "Avoid harsh soaps and scrubs"
+      ]
+    }
+  }
+]

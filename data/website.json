@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Nykaa",
+    "url": "https://www.nykaa.com/skin/c/8377",
+    "type": "product",
+    "scraper": "nykaa_scraper"
+  },
+  {
+    "name": "Minimalist",
+    "url": "https://beminimalist.co/collections/skin-care",
+    "type": "product",
+    "scraper": "minimalist_scraper"
+  },
+  {
+    "name": "Foxtale",
+    "url": "https://foxtale.in/collections/shop-all",
+    "type": "product",
+    "scraper": "foxtale_scraper"
+  },
+  {
+    "name": "The Ordinary",
+    "url": "https://theordinary.com/en-in",
+    "type": "product",
+    "scraper": "ordinary_scraper"
+  },
+  {
+    "name": "Pilgrim",
+    "url": "https://www.discoverpilgrim.com/collections/face-care",
+    "type": "product",
+    "scraper": "pilgrim_scraper"
+  },
+  {
+    "name": "Healthline Skincare",
+    "url": "https://www.healthline.com/health/beauty-skin-care",
+    "type": "blog",
+    "scraper": "healthline_scraper"
+  },
+  {
+    "name": "Byrdie Skincare",
+    "url": "https://www.byrdie.com/skin-care-4691950",
+    "type": "blog",
+    "scraper": "byrdie_scraper"
+  },
+  {
+    "name": "Neutrogena",
+    "url": "https://www.neutrogena.in/skin-care-products",
+    "type": "product",
+    "scraper": "neutrogena_scraper"
+  },
+  {
+    "name": "Paula's Choice",
+    "url": "https://www.paulaschoice.com/skin-care",
+    "type": "product",
+    "scraper": "paulaschoice_scraper"
+  },
+  {
+    "name": "CeraVe Blog",
+    "url": "https://www.cerave.com/skin-smarts/skincare-tips",
+    "type": "blog",
+    "scraper": "cerave_scraper"
+  }
+]
