@@ -1,0 +1,15 @@
+[
+    {
+        "timestamp": "2025-07-27T12:30:55.104641",
+        "skin_type": {
+            "label": "Normal",
+            "confidence": 0.5961483716964722
+        },
+        "skin_issues": [
+            {
+                "label": "Eyebags",
+                "confidence": 0.4188818037509918
+            }
+        ]
+    }
+]

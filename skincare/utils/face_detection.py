@@ -21,18 +21,21 @@ class FaceDetector:
                 w_box = int(bboxC.width * iw)
                 h_box = int(bboxC.height * ih)
 
-                # Clamp bounding box within image bounds
-                x = max(0, x)
-                y = max(0, y)
-                x2 = min(iw, x + w_box)
-                y2 = min(ih, y + h_box)
-
-                face = frame[y:y2, x:x2]
-
                 # Check if face is large enough
                 if w_box < self.min_face_size_ratio * iw or h_box < self.min_face_size_ratio * ih:
                     print("⚠️ Face too small. Ask user to come closer.")
                     return None, None
+
+                # Expand the crop region
+                padding_x = int(0.2 * w_box)
+                padding_y = int(0.2 * h_box)
+
+                x_exp = max(0, x - padding_x)
+                y_exp = max(0, y - padding_y)
+                x2_exp = min(iw, x + w_box + padding_x)
+                y2_exp = min(ih, y + h_box + padding_y)
+
+                face = frame[y_exp:y2_exp, x_exp:x2_exp]
 
                 # Lighting check
                 gray_face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
@@ -41,6 +44,7 @@ class FaceDetector:
                     print("💡 Low lighting. Ask user to increase lighting.")
                     return None, None
 
-                return face, (x, y, w_box, h_box)
+                # Return the expanded face, and also the updated (expanded) bounding box for drawing
+                return face, (x_exp, y_exp, x2_exp - x_exp, y2_exp - y_exp)
 
         return None, None
